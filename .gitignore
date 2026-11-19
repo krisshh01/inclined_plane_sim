@@ -1,0 +1,15 @@
+# Build outputs (rebuild with `make` / `make test`)
+incline_sim
+incline_sim.exe
+tests/test_physics
+tests/test_sim
+tests/screenshot
+*.o
+
+# Screenshot test output
+*.png
+
+# macOS / editor clutter
+.DS_Store
+.vscode/
+.idea/
